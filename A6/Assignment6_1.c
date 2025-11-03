@@ -1,0 +1,20 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File Name       : Assignment6_1.c
+//  Description     : Accept name from user and print the same name on screen
+//  Author          : Rutuja Bharat varal
+//  Date            : 21/10/2025
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include<stdio.h>
+int main()
+{
+    char Name[30];
+    printf("Please Enter Your full Name\n");
+    scanf("%s",&Name);
+    printf("Your Name is %s\n",Name);
+
+    return 0;
+
+
+}
